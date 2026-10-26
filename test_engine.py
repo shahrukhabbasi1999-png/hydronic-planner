@@ -1,7 +1,7 @@
 """Run with:  python -m pytest tests"""
 import math
 
-from hydronic_planner import engine as E
+import engine as E
 
 
 def test_matches_thesis_excel_models():

@@ -18,8 +18,8 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import streamlit as st
 
-from hydronic_planner import engine as E
-from hydronic_planner.schematic import draw
+import engine as E
+from schematic import draw
 
 st.set_page_config(page_title="Hydronic Layout Planner", layout="wide")
 
